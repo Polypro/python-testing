@@ -3,3 +3,4 @@ def x(msg):
     return 1
 
 x("Hello world")
+print("How dare you")
