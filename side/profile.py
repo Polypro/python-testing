@@ -11,6 +11,3 @@ def user(first_name, last_name, **informations):
 def print_profile(profile):
     for k,v in profile.items():
         print(k, ":", v)
-
-profilex = user("david", "potvin", eye_color="blue", hair_color="red")
-print_profile(profilex)
