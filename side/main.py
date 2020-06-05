@@ -1,4 +1,4 @@
 import profile
 
-profilex = user("david", "potvin", eye_color="blue", hair_color="red")
-print_profile(profilex)
+profilex = profile.user("david", "potvin", eye_color="blue", hair_color="red")
+profile.print_profile(profilex)
